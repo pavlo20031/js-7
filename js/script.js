@@ -32,6 +32,17 @@ for (const elem of symbols) {
     }
 }
 
+// Max
+const numArray = [39, 69, 67, 10, 80, 1000, 10000, 100000, 1000000, 1];
+let max = numArray[0];
+for (let i = 0; i < numArray.length; i++) {
+if (max < numArray[i]) {
+    max = numArray[i];
+}
+}
+console.log(max);  
+
+
 // Search
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (const elem of array) {
